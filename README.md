@@ -7,17 +7,29 @@ Inclui CRUD completo para Plantas, Usuários e Cuidados, com layout simples e co
 Estrutura do Projeto:
 
 mvcPlantas/
+
   app/
+  
     controllers/ # Controladores (PlantaController, UsuarioController, CuidadoController)
+    
     dao/ # DAOs para acesso ao banco de dados
+    
     models/ # Models (Planta, Usuario, Cuidado)
+    
     views/ # Views (HTML + CSS)
+    
       css/ # Arquivos CSS: home.css, form.css, listar.css
+      
       plantas/ # Formulários e lista de plantas
+      
       usuarios/ # Formulários e lista de usuários
+      
       cuidados/ # Formulários e lista de cuidados
+      
   index.php # Arquivo de entrada do projeto
+  
   mvcplantas.sql # Dump do banco de dados (para importar no MySQL)
+  
   README.md # Documentação do projeto
 
 Funcionalidades
