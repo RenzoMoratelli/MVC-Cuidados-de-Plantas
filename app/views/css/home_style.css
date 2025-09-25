@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000; /* fundo preto */
+    color: #fff; /* texto branco */
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    margin-bottom: 40px;
+    font-size: 28px;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+.menu a {
+    padding: 12px 25px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    background-color: #fff;
+    color: #000;
+}
